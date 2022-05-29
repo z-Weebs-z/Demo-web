@@ -1,5 +1,5 @@
 # Progress List
-<p style="font-size:20">
+<p style="font-size:20px">
 . Deploy Website    ✔     
 . Add home page     ✔      
 . Create wireframe          
