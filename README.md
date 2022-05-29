@@ -9,5 +9,5 @@
 <h3>Size : https://z-weebs-z.github.io/Demo-web/</h1>
 <h3> Reference </h1>
 https://github.com/zennomi/frontend-zennomi <br>
-https://zennomi.github.io/homepage <br>
 https://zenno.moe/ <br>
+
