@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+}
+
+/* ---------------------------------------------------------------------------- */
+/* --------------------------------HEADER-------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+header {
+    background-image: linear-gradient( rgba(47, 143, 157,0.6) 55%,rgba(179, 232, 229,0.8)), url("../image/background.jpg");
+    /* to right top , 135deg */
+    /* width: 1080px; */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.logo {
+    width: 60px;
+    border-radius: 20%;
+    float: left;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-right: 400px;
+    margin-top: 65px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 110%;
+    font-weight: 700;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+/* <div class="clearfix"></div>  */
