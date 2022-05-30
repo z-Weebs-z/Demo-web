@@ -16,7 +16,7 @@ html {
 /* --------------------------------HEADER-------------------------------------- */
 /* ---------------------------------------------------------------------------- */
 header {
-    background-image: linear-gradient( rgba(47, 143, 157,0.6) 55%,rgba(179, 232, 229,0.8)), url("../image/background.jpg");
+    background-image: linear-gradient( rgba(47, 143, 157,0.6) 55%,rgba(179, 232, 229,0.8)), url("../image/test.jpg");
     /* to right top , 135deg */
     /* width: 1080px; */
     background-size: cover;
