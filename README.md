@@ -2,7 +2,7 @@
 <h3>
 . Deploy Website    ✔     <br>
 . Add home page     ✔      <br>
-. Create wireframe          <br>
+. Add banner slideshow      ✔          <br>
 . Add more features       <br>
 . Update home page          <br>
 </h3>
