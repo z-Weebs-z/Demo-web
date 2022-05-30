@@ -65,4 +65,10 @@ header {
 	clear: both;
 	display: table;
 }
+.search-box {
+    float: right;
+    list-style: none;
+    margin-right: 150px;
+    margin-top: -20px;
+}
 /* <div class="clearfix"></div>  */
