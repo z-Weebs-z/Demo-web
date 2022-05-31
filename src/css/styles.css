@@ -16,23 +16,9 @@ html {
 /* --------------------------------HEADER-------------------------------------- */
 /* ---------------------------------------------------------------------------- */
 
-/* .row h2,p {
-   
-        display: inline-block;
-        padding-right: 20px;
-        color: #e67e22;
- }
-   */
- .row {
-     width: 1140px;
-     margin: 0 auto;
- }
-
-
-
-
-header {
-    background-image: linear-gradient( rgba(47, 143, 157,0.6) 55%,rgba(179, 232, 229,0.8)), url("../image/background.jpg");
+header,.anime {
+    background-image: linear-gradient( rgba(0, 0, 0,0.6) ,rgba(255,255,255,0.6)), url("../image/background.jpg");
+    /* rgba(47, 143, 157,0.6) 55%,rgba(179, 232, 229,0.8) */
     /* to right top , 135deg */
     /* width: 1080px; */
     background-size: cover;
@@ -40,6 +26,8 @@ header {
     height: 100vh;
     background-attachment: fixed;
 }
+
+
 
 .logo {
     width: 250px;
@@ -98,6 +86,22 @@ header {
 }
 /* <div class="clearfix"></div>  */
 
+/* ================================================================================= */
+
+
+
+.row h2,p {
+   
+    display: inline-block;
+    padding-right: 20px;
+    color:aqua;
+}
+
+.row {
+ width: 1140px;
+ margin: 0 auto;
+}
+
  h2 {
     letter-spacing: 3px;
     font-weight: 1000;
@@ -105,3 +109,42 @@ header {
     
 }
 
+h2::after {
+    content: " ";
+    display: block;
+    width: 150;
+    height: 3px;
+    background-color: black;
+}
+
+.picture-anime {
+    position: relative;
+}
+
+.picture-anime img {
+    width: 95%;
+    border-radius: 5%;
+    border: 1.5px solid rgb(190, 184, 184);
+    box-shadow: 0px 3px 3px 3px rgb(97, 91, 91);
+}
+
+.picture-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,100%);
+    opacity: 0;
+}
+
+.picture-anime:hover img,
+.picture-anime:active img {
+    filter:brightness(60%) blur(2px) ;
+    transition: all .5s;
+}
+
+.picture-anime:hover .picture-title,
+.picture-anime:active .picture-title{
+    transform: translate(-50%,-50%);
+    opacity: 1;
+    transition: all .5s;
+}

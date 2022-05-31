@@ -62,7 +62,11 @@ input{
 -----------------------------------------Slideshow------------------------------------------
 ---------------------------------------------------------------------------------------- -- */
         .mySlides {display: none;}
-        .slideshow-container img {vertical-align: middle;}
+        .slideshow-container img {
+          vertical-align: middle;
+          border: 3px solid white;
+          box-shadow: 0px 3px 15px 1px rgb(189, 186, 186);
+        }
         
         /* Slideshow container */
         .slideshow-container {
