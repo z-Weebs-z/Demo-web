@@ -3,6 +3,8 @@
 
 <head>
     <title>Home Page </title>
+    <!-- ====================================================================================================================================== -->
+    <!-- ==============================================================META==================================================================== -->
 
     <meta charset="UTF-8">
     <meta name="description" content="Web của hai thằng wibu thất bại.">
@@ -11,8 +13,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Anime,Manga,Light Novel,Visual Novel,wibu">
 
+    <!-- ====================================================================================================================================== -->
+    <!-- =============================================================LINK===================================================================== -->
 
-    <script src="https://kit.fontawesome.com/9bcb66184c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="./src/css/styles.css">
     <link rel="stylesheet" type="text/css" href="./vendors/css/style.css">
@@ -22,16 +25,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Mulish:wght@700&display=swap"
         rel="stylesheet">
 
+    <!-- ====================================================================================================================================== -->
+    <!-- =============================================================OTHERS=================================================================== -->
 
-    <!-- ============================================================================ -->
+    <script src="https://kit.fontawesome.com/9bcb66184c.js" crossorigin="anonymous"></script>
 
-
+    <!-- ====================================================================================================================================== -->
+    <!-- ====================================================================================================================================== -->
 </head>
 
 <body>
     <header>
-        <nav class="navbar">
+        <div class="top-bar">
+            <!-- <i class="fa fa-clock-five"></i> -->
+            <div id="current-time"></div>
+            <script>
+                var curDate = new Date();
 
+                // Ngày hiện tại
+                var curDay = curDate.getDate();
+
+                // Tháng hiện tại
+                var curMonth = curDate.getMonth() + 1;
+
+                // Năm hiện tại
+                var curYear = curDate.getFullYear();
+
+                // Gán vào thẻ HTML
+                document.getElementById('current-time').innerHTML = curDay + "/" + curMonth + "/" + curYear;
+            </script>
+        </div>
+        <nav class="navbar">
             <div class="navbar-logo">
                 <a href="#"> <img class="logo" src="./src/image/logo.png" alt="logo"> </a>
             </div>
@@ -95,10 +119,10 @@
         </nav>
 
     </header>
-    
-    <section class="anime">
+
+    <div class="anime">
         <div class="row">
-            <h2 >Anime</h2>
+            <h2>Anime</h2>
             <p>Donna uchuu demo kimi wo aishiteiru</p>
         </div>
         <div class="row">
@@ -137,7 +161,7 @@
                 <p class="picture-title">Title 8</p>
             </div>
         </div>
-    </section>
+    </div>
 
     <script src="./vendors/js/scrypts.js"></script>
 
