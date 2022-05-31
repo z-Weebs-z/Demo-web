@@ -42,24 +42,24 @@ header {
 }
 
 .logo {
-    width: 60px;
+    width: 250px;
     border-radius: 20%;
     float: left;
-    margin-left: 90px;
-    margin-top: 40px;
+    margin-left: 30px;
+    margin-top: -32.5px;
 }
 
 
 .main-nav {
     float: right;
     list-style: none;
-    margin-right: 330px;
+    margin-right: 280px;
     margin-top: 50px;
 }
 
 .main-nav li{
     display: inline-block;
-    margin-right:10px;
+    margin-right:20px;
 }
 
 .main-nav li::after{
@@ -93,7 +93,7 @@ header {
 .search-box {
     float: right;
     list-style: none;
-    margin-right: 150px;
+    margin-right: 100px;
     margin-top: -15px;
 }
 /* <div class="clearfix"></div>  */
