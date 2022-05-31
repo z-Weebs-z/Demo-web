@@ -16,15 +16,25 @@ html {
 /* --------------------------------HEADER-------------------------------------- */
 /* ---------------------------------------------------------------------------- */
 
-header,.anime {
+
+.top-bar {
+    background-color: rgba(246, 240, 240,0.5);
+    /* padding-bottom: 20px; */
+}
+
+#current-time {
+    font-size: 18px;
+}
+
+body {
     background-image: linear-gradient( rgba(0, 0, 0,0.6) ,rgba(255,255,255,0.6)), url("../image/background.jpg");
     /* rgba(47, 143, 157,0.6) 55%,rgba(179, 232, 229,0.8) */
     /* to right top , 135deg */
-    /* width: 1080px; */
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-attachment: fixed;
+    /* width: auto; */
+     background-size: cover;
+    background-position: center; 
+     /* height: 100vh;  */
+    background-attachment: fixed;  
 }
 
 
