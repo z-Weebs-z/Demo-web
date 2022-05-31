@@ -38,12 +38,20 @@ header {
     float: right;
     list-style: none;
     margin-right: 330px;
-    margin-top: 65px;
+    margin-top: 50px;
 }
 
 .main-nav li{
     display: inline-block;
-    margin-right:25px;
+    margin-right:10px;
+}
+
+.main-nav li::after{
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 4px;
+    color: blue;
 }
 
 .main-nav li a{
@@ -55,10 +63,14 @@ header {
     padding-right: 30px;
 }
 
-.main-nav li a:hover,
+.row {
+    display: inline-block;
+}
+
+/* .main-nav li a:hover,
 .main-nav li a:active {
 
-}
+} */
 
 .clearfix::after {
 	content: "";
@@ -69,6 +81,6 @@ header {
     float: right;
     list-style: none;
     margin-right: 150px;
-    margin-top: -20px;
+    margin-top: -15px;
 }
 /* <div class="clearfix"></div>  */
