@@ -37,23 +37,16 @@
 <body>
     <header>
         <div class="top-bar">
-            <!-- <i class="fa fa-clock-five"></i> -->
-            <div id="current-time"></div>
-            <script>
-                var curDate = new Date();
-
-                // Ngày hiện tại
-                var curDay = curDate.getDate();
-
-                // Tháng hiện tại
-                var curMonth = curDate.getMonth() + 1;
-
-                // Năm hiện tại
-                var curYear = curDate.getFullYear();
-
-                // Gán vào thẻ HTML
-                document.getElementById('current-time').innerHTML = curDay + "/" + curMonth + "/" + curYear;
-            </script>
+                <div class="time-box">
+                    <i class="fa fa-clock"></i>
+                    <div id="current-time"></div>
+                </div>
+                <div class="top-icon">
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-facebook"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fa fa-youtube"></i>
+                </div>
         </div>
         <nav class="navbar">
             <div class="navbar-logo">

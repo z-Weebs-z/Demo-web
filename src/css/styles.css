@@ -18,12 +18,39 @@ html {
 
 
 .top-bar {
-    background-color: rgba(246, 240, 240,0.5);
-    /* padding-bottom: 20px; */
+    background-color: rgba(246, 240, 240,0.2);
+    padding: 2px;
+}
+.time-box,
+.top-icon {
+    display: inline-block;
+}
+
+.fa-clock,
+#current-time {
+    position: relative;
+    display: inline-block;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    color: white;
 }
 
 #current-time {
-    font-size: 18px;
+    border-right: 2px solid black;
+}
+
+.fa-clock {
+    margin-left: 20px;;
+}
+
+.fa-twitter,
+.fa-facebook,
+.fa-discord,
+.fa-youtube {
+    color: white;
+    margin-left: 10px;
 }
 
 body {
