@@ -29,9 +29,9 @@ input{
     padding: 0 20px;
 }
 
-.fa{
+.search-box .fa-magnifying-glass{
     box-sizing: border-box;
-    padding: 5px;
+    padding: 6.5px;
     width: 32.5px;
     height: 32.5px;
     position: absolute;
@@ -40,7 +40,7 @@ input{
     border-radius: 50%;
     color: #07051a;
     text-align: center;
-    font-size: 1.0em;
+    font-size: 0.9em;
     transition: all 1s;
 }
 
@@ -53,7 +53,7 @@ input{
     display: block;
 }
 
- form:hover .fa{
+ form:hover .fa-magnifying-glass{
     background:pink ;
     color: white;
 }
