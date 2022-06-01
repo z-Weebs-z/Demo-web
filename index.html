@@ -37,40 +37,64 @@
 <body>
     <header>
         <div class="top-bar">
-                <div class="time-box">
-                    <i class="fa fa-clock"></i>
-                    <div id="current-time"></div>
-                </div>
-                <div class="top-icon">
-                    <i class="fa fa-twitter"></i>
-                    <i class="fa fa-facebook"></i>
-                    <i class="fab fa-discord"></i>
-                    <i class="fa fa-youtube"></i>
-                </div>
+            <div class="time-box">
+                <i class="fa fa-clock"></i>
+                <div id="current-time"></div>
+            </div>
+            <div class="top-icon">
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-facebook"></i>
+                <i class="fab fa-discord"></i>
+                <i class="fa fa-youtube"> </i>
+                <div class="light-dark-mode">
+                    <div class="toggleWrapper">
+                        <input type="checkbox" class="dn" id="dn" />
+                        <label for="dn" class="toggle">
+                          <span class="toggle__handler">
+                            <span class="crater crater--1"></span>
+                            <span class="crater crater--2"></span>
+                            <span class="crater crater--3"></span>
+                          </span>
+                          <span class="star star--1"></span>
+                          <span class="star star--2"></span>
+                          <span class="star star--3"></span>
+                          <span class="star star--4"></span>
+                          <span class="star star--5"></span>
+                          <span class="star star--6"></span>
+                        </label>
+                      </div>
+                </div> 
+            </div>
+            <div class="user-box">
+                <div class="log-in">Log in</div>
+                <div class="sign-up">Sign up</div>   
+            </div>
         </div>
         <nav class="navbar">
-            <div class="navbar-logo">
-                <a href="#"> <img class="logo" src="./src/image/logo.png" alt="logo"> </a>
-            </div>
-
-            <div class="navbar-menu">
-                <ul class="main-nav">
-                    <li><a href="">Anime</a></li>
-                    <li><a href="">Manga</a></li>
-                    <li><a href="">Light Novel</a></li>
-                    <li><a href="">Visual Novel</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="">Music</a></li>
-                </ul>
-            </div>
-            <div class="navbar-search">
-                <div class="search-box">
-                    <form action="">
-                        <input type="text" name="search-box" placeholder="Search ...">
-                        <i class="fa fa-magnifying-glass"></i>
-                    </form>
+            <div class="menu">
+                <div class="navbar-logo">
+                    <a href="#"> <img class="logo" src="./src/image/logo.png" alt="logo"> </a>
                 </div>
-
+    
+                <div class="navbar-menu">
+                    <ul class="main-nav">
+                        <li><a href="">Anime</a></li>
+                        <li><a href="">Manga</a></li>
+                        <li><a href="">Light Novel</a></li>
+                        <li><a href="">Visual Novel</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">Music</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-search">
+                    <div class="search-box">
+                        <form action="">
+                            <input type="text" name="search-box" placeholder="Search ...">
+                            <i class="fa fa-magnifying-glass"></i>
+                        </form>
+                    </div>
+    
+            </div>
             </div>
             <div class="slideshow-container">
 
