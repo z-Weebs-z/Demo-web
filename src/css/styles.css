@@ -12,10 +12,24 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+body {
+    overflow-x: hidden;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
 /* ---------------------------------------------------------------------------- */
 /* --------------------------------HEADER-------------------------------------- */
 /* ---------------------------------------------------------------------------- */
-
+.navbar {
+    border-bottom: 0.5px solid rgba(119, 115, 115,0.5) ;
+    position: absolute;
+    z-index : 900;
+    width: 100%;
+    height: 70px;
+}
 
 .top-bar {
     border-bottom: 0.5px solid rgba(119, 115, 115,0.5) ;
@@ -89,8 +103,6 @@ body {
     background-attachment: fixed;  
 }
 
-
-
 .logo {
     width: 170px;
     border-radius: 20%;
@@ -131,6 +143,7 @@ body {
 }
 
 
+
 /* .main-nav li a:hover,
 .main-nav li a:active {
 
@@ -141,17 +154,20 @@ body {
 	clear: both;
 	display: table;
 }
+/* <div class="clearfix"></div>  */
 .search-box {
     float: right;
     list-style: none;
     margin-right: 100px;
     margin-top: -20px;
 }
-/* <div class="clearfix"></div>  */
 
 /* ================================================================================= */
 
-
+.anime {
+    position: relative;
+    top :20%;
+}
 
 .row h2,p {
    

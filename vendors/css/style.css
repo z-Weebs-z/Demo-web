@@ -1,4 +1,4 @@
-
+/* ===================================Search bar============================================= */
  form{
     position: relative;
     top : 10%;
@@ -60,7 +60,7 @@ input{
 
 
 /* ====================================================================================== */
-
+/* ==================================Toggle Mode========================================= */
 .toggleWrapper {
   position: absolute;
   top:5.5px;
@@ -267,7 +267,7 @@ input:checked + .toggle .star--6 {
           position: relative;
           top: 50%;
           left: 50%;
-          transform: translate(-50%,-0%);
+          transform: translate(-50%,20%);
         }
         
         /* Caption text */
